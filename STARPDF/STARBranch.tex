@@ -1,0 +1,472 @@
+% -*- coding:utf-8 -*-
+\documentclass[10pt]{beamer}
+
+\usepackage{ctex}
+
+%%% 重新定义自己想要的样式
+\definecolor{seagreen}{RGB}{46, 139, 87}
+\newcommand{\meeting}{MuDst Data}
+%%% frame title
+\setbeamertemplate{frametitle}{\centering\insertframetitle\par\rule[5mm]{\textwidth}{1.5pt}}
+\setbeamercolor{frametitle}{fg=seagreen, bg=white}
+%%% foot line
+\setbeamertemplate{footline}{\centering\rule[0.5mm]{\textwidth}{1.pt}
+  {\meeting \hspace{90mm} \insertframenumber} \\
+  \centering\rule[0mm]{\textwidth}{1.pt}}
+\setbeamerfont{footline}{size=\normalsize}
+\setbeamercolor{footline}{fg=seagreen, bg=white}
+%%% title
+\setbeamercolor{title}{fg=seagreen, bg=white}
+%%% itemize
+\setbeamertemplate{itemize item}{\adfhalfrightarrowhead}
+\setbeamerfont{itemize item}{size=\LARGE}
+\setbeamercolor{itemize item}{fg=seagreen}
+%%% url
+\hypersetup{linkcolor=seagreen,colorlinks=true}
+%%% 导航条
+\setbeamertemplate{navigation symbols}[only frame symbol]
+
+\begin{document}
+
+\title{\color{black}STAR MuDst File Content}
+\author{Jin Xiaohai}
+\logo{\includegraphics[width=0.1\textwidth]{image/logo.jpg}}
+\institute{\normalsize{Shanghai Institute of Applied Physics, CAS}}
+\date{\meeting \hspace{4mm} \today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{frame}[plain]
+  \maketitle
+  \begin{columns}[c]
+    \column{0.5\textwidth}
+    \includegraphics[width=\textwidth]{image/sinap.jpg}
+    \column{0.5\textwidth}
+    \includegraphics[width=\textwidth]{image/ucas.eps}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Outline}
+  \begin{table}
+    \centering
+    \begin{tabular}{c c c c c}
+      \hyperlink{BTofHeader}{BTofHeader} & \hyperlink{BTofHit}{BTofHit}
+      & \hyperlink{BTofRawHit}{BTofRawHit} & \hyperlink{CovGlobTrack}{CovGlobTrack} \\
+      \hyperlink{CovPrimTrack}{CovPrimTrack} & \hyperlink{CpvCluster}{CpvCluster}
+      & \hyperlink{CpvHit}{CpvHit} & \hyperlink{DetectorStates}{DetectorStates} \\
+      \hyperlink{EEmcPrs}{EEmcPrs} & \hyperlink{EEmcSmdu}{EEmcSmdu}
+      & \hyperlink{EEmcSmdv}{EEmcSmdv} & \hyperlink{EmcPrs}{EmcPrs} \\
+      \hyperlink{EmcSmde}{EmcSmde} & \hyperlink{EmcSmdp}{EmcSmdp}
+      & \hyperlink{EmcTow}{EmcTow} & \hyperlink{Event}{Event} \\
+      \hyperlink{FmsHit}{FmsHit} & \hyperlink{GlobalTracks}{GlobalTracks}
+      & \hyperlink{KinkAssoc}{KinkAssoc} & \hyperlink{Kink}{Kink} \\
+      \hyperlink{L3AlgoAccept}{L3AlgoAccept} & \hyperlink{L3AlgoReject}{L3AlgoReject}
+      & \hyperlink{L3Tracks}{L3Tracks} & \hyperlink{McEvent}{McEvent} \\
+      \hyperlink{McKink}{McKink} & \hyperlink{McV0}{McV0}
+      & \hyperlink{McXi}{McXi} & \hyperlink{MuEvent}{MuEvent} \\
+      \hyperlink{OtherTracks}{OtherTracks} & \hyperlink{PmdCluster}{PmdCluster}
+      & \hyperlink{PmdHit}{PmdHit} & \hyperlink{pp2pp}{pp2pp} \\
+      \hyperlink{PrimaryTracks}{PrimaryTracks} & \hyperlink{PrimaryVertices}{PrimaryVertices}
+      & \hyperlink{RichSpectra}{RichSpectra} & \hyperlink{StrangeCuts}{StrangeCuts} \\
+      \hyperlink{TofData}{TofData} & \hyperlink{TofHit}{TofHit}
+      & \hyperlink{TofRawData}{TofRawData} & \hyperlink{V0Assoc}{V0Assoc} \\
+      \hyperlink{V0}{V0} & \hyperlink{XiAssoc}{XiAssoc}
+      & \hyperlink{Xi}{Xi}
+                                                                          
+    \end{tabular}
+  \end{table}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{BTofHeader}
+\begin{frame}
+  \frametitle{BTofHeader}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{BTofHeader.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{BTofHit}
+\begin{frame}
+  \frametitle{BTofHit}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{BTofHit.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{BTofRawHit}
+\begin{frame}
+  \frametitle{BTofRawHit}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{BTofRawHit.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{CovGlobTrack}
+\begin{frame}
+  \frametitle{CovGlobTrack}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{CovGlobTrack.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{CovPrimTrack}
+\begin{frame}
+  \frametitle{CovPrimTrack}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{CovPrimTrack.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{CpvCluster}
+\begin{frame}
+  \frametitle{CpvCluster}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{CpvCluster.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{CpvHit}
+\begin{frame}
+  \frametitle{CpvHit}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{CpvHit.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{DetectorStates}
+\begin{frame}
+  \frametitle{DetectorStates}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{DetectorStates.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EEmcPrs}
+\begin{frame}
+  \frametitle{EEmcPrs}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EEmcPrs.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EEmcSmdu}
+\begin{frame}
+  \frametitle{EEmcSmdu}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EEmcSmdu.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EEmcSmdv}
+\begin{frame}
+  \frametitle{EEmcSmdv}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EEmcSmdv.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EmcPrs}
+\begin{frame}
+  \frametitle{EmcPrs}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EmcPrs.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EmcSmde}
+\begin{frame}
+  \frametitle{EmcSmde}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EmcSmde.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EmcSmdp}
+\begin{frame}
+  \frametitle{EmcSmdp}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EmcSmdp.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{EmcTow}
+\begin{frame}
+  \frametitle{EmcTow}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{EmcTow.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Event}
+\begin{frame}
+  \frametitle{Event}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{Event.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{FmsHit}
+\begin{frame}
+  \frametitle{FmsHit}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{FmsHit.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{GlobalTracks}
+\begin{frame}
+  \frametitle{GlobalTracks}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{GlobalTracks.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{KinkAssoc}
+\begin{frame}
+  \frametitle{KinkAssoc}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{KinkAssoc.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Kink}
+\begin{frame}
+  \frametitle{Kink}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{Kink.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{L3AlgoAccept}
+\begin{frame}
+  \frametitle{L3AlgoAccept}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{L3AlgoAccept.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{L3AlgoReject}
+\begin{frame}
+  \frametitle{L3AlgoReject}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{L3AlgoReject.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{L3Tracks}
+\begin{frame}
+  \frametitle{L3Tracks}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{L3Tracks.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{McEvent}
+\begin{frame}
+  \frametitle{McEvent}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{McEvent.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{McKink}
+\begin{frame}
+  \frametitle{McKink}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{McKink.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{McV0}
+\begin{frame}
+  \frametitle{McV0}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{McV0.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{McXi}
+\begin{frame}
+  \frametitle{McXi}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{McXi.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{MuEvent}
+\begin{frame}
+  \frametitle{MuEvent}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{MuEvent.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{OtherTracks}
+\begin{frame}
+  \frametitle{OtherTracks}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{OtherTracks.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{PmdCluster}
+\begin{frame}
+  \frametitle{PmdCluster}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{PmdCluster.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{PmdHit}
+\begin{frame}
+  \frametitle{PmdHit}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{PmdHit.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{pp2pp}
+\begin{frame}
+  \frametitle{pp2pp}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{pp2pp.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{PrimaryTracks}
+\begin{frame}
+  \frametitle{PrimaryTracks}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{PrimaryTracks.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{PrimaryVertices}
+\begin{frame}
+  \frametitle{PrimaryVertices}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{PrimaryVertices.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{RichSpectra}
+\begin{frame}
+  \frametitle{RichSpectra}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{RichSpectra.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{StrangeCuts}
+\begin{frame}
+  \frametitle{StrangeCuts}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{StrangeCuts.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{TofData}
+\begin{frame}
+  \frametitle{TofData}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{TofData.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{TofData}
+\begin{frame}
+  \frametitle{TofData}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{TofData.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{TofRawData}
+\begin{frame}
+  \frametitle{TofRawData}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{TofRawData.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{V0Assoc}
+\begin{frame}
+  \frametitle{V0Assoc}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{V0Assoc.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{V0}
+\begin{frame}
+  \frametitle{V0}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{V0.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{XiAssoc}
+\begin{frame}
+  \frametitle{XiAssoc}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{XiAssoc.png}
+  \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Xi}
+\begin{frame}
+  \frametitle{Xi}
+  \begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=\textwidth]{Xi.png}
+  \end{figure}
+\end{frame}
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
