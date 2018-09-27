@@ -1,0 +1,25 @@
+/Ctq5Par.F/1.1/Mon Feb  5 19:20:44 2007//TSL18c
+/DSSV-2009a.F/1.1/Tue Sep 13 20:03:55 2011//TSL18c
+/DSSV.F/1.1/Thu May  1 16:27:36 2008//TSL18c
+/LSS2006pdf_g1.F/1.1/Thu May  1 16:28:36 2008//TSL18c
+/LSS2010_PDFs.F/1.2/Sat Nov 24 16:51:10 2012//TSL18c
+/NLO_MS_chsign_delG.grid/1.2/Sat Nov 24 03:13:20 2012//TSL18c
+/NLO_MS_delGpos.grid/1.1/Fri Nov 23 22:23:42 2012//TSL18c
+/StMCAsymMaker.cxx/1.19/Sat Dec  1 14:44:18 2012//TSL18c
+/StMCAsymMaker.h/1.14/Wed Aug  6 11:43:39 2014//TSL18c
+/StPythiaEvent.h/1.10/Sun Jun  1 05:31:48 2008//TSL18c
+/aac06.F/1.1/Thu May  1 16:29:25 2008//TSL18c
+/denom.F/1.1/Mon Feb  5 19:22:25 2007//TSL18c
+/dinteg.F/1.1/Mon Sep 19 18:58:39 2011//TSL18c
+/grsv.F/1.2/Thu Nov  1 02:49:26 2007//TSL18c
+/grsv2000std_val_LO_NLO.F/1.2/Fri Sep 25 14:28:57 2009//TSL18c
+/grv.F/1.1/Mon Feb  5 19:20:56 2007//TSL18c
+/num.F/1.1/Mon Feb  5 19:22:02 2007//TSL18c
+/polar.F/1.4/Thu May  1 01:36:39 2008//TSL18c
+/polnlo.F/1.1/Sun Feb  3 01:26:18 2008//TSL18c
+/polpdf.F/1.2/Sat Nov 24 16:51:10 2012//TSL18c
+/ppdf_bb.F/1.1/Thu May  1 16:29:51 2008//TSL18c
+/qcd_nlo_907_0.grid/1.1/Fri Nov 23 22:23:43 2012//TSL18c
+/readgrid_dns.F/1.1/Thu May  1 16:30:05 2008//TSL18c
+/unpolar.F/1.1/Mon Feb  5 19:21:30 2007//TSL18c
+D/macros////

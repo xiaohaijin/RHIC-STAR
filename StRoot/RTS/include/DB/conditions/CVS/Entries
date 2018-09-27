@@ -1,0 +1,21 @@
+/detsDictionary.h/1.2/Fri Aug 28 13:39:07 2009//TSL18c
+/rtsCndDaqDetSetup.h/1.4/Wed Mar  4 14:15:23 2009//TSL18c
+/rtsCndDaqSubdet.h/1.1/Wed Feb 27 16:26:13 2008//TSL18c
+/rtsCndDataStreamNames.h/1.1/Wed Feb 27 16:26:14 2008//TSL18c
+/rtsCndEndRun.h/1.1/Wed Feb 27 16:26:14 2008//TSL18c
+/rtsCndL1Rescale.h/1.1/Wed Feb 27 16:26:14 2008//TSL18c
+/rtsCndLxUserFloat.h/1.1/Wed Feb 27 16:26:14 2008//TSL18c
+/rtsCndLxUserInt.h/1.1/Wed Feb 27 16:26:14 2008//TSL18c
+/rtsCndPwCondition.h/1.2/Tue Apr 28 20:41:15 2009//TSL18c
+/rtsCndPwLink.h/1.1/Wed Feb 27 16:26:15 2008//TSL18c
+/rtsCndRun.h/1.1/Wed Feb 27 16:26:15 2008//TSL18c
+/rtsCndTasks.h/1.1/Wed Feb 27 16:26:15 2008//TSL18c
+/rtsCndTcdSetup.h/1.1/Wed Feb 27 16:26:15 2008//TSL18c
+/rtsCndTrgDictEntry.h/1.4/Wed Mar 11 19:04:43 2009//TSL18c
+/rtsCndTrigger.h/1.1/Wed Feb 27 16:26:16 2008//TSL18c
+/rtsCndTwLink.h/1.1/Wed Feb 27 16:26:16 2008//TSL18c
+/rtsConditions.h/1.1/Wed Feb 27 16:26:16 2008//TSL18c
+/rtsDbConstants.h/1.2/Fri Feb 18 19:45:53 2011//TSL18c
+/rtsHash.h/1.1/Wed Feb 27 16:26:16 2008//TSL18c
+/test.C/1.1/Wed Feb 27 16:26:34 2008//TSL18c
+D

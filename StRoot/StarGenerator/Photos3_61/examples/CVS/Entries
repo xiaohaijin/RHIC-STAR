@@ -1,0 +1,26 @@
+/Makefile/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/README/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/README-PYTHIA-VERSIONS/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/SETUP.C/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/configure/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/configure.in/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/make.inc.in/1.1/Fri Sep 23 18:39:11 2016//TSL18c
+/photosLCG_pythia_example.conf/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photosLCG_pythia_example.cxx/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photosLCG_pythia_example.out/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_hepevt_example.f/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_hepevt_example.out/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_hepevt_example_interface.cxx/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_pythia_example.conf/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_pythia_example.cxx/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_pythia_example.out/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_standalone_example.cxx/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_standalone_example.dat/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/photos_standalone_example.out/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/single_photos_gun_example.conf/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/single_photos_gun_example.cxx/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/single_photos_gun_example.out/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/tauola_photos_pythia_example.conf/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/tauola_photos_pythia_example.cxx/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+/tauola_photos_pythia_example.out/1.1/Fri Sep 23 18:39:12 2016//TSL18c
+D

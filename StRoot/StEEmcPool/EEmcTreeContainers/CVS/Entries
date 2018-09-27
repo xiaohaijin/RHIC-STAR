@@ -1,0 +1,18 @@
+/EEmc2ParticleCandidate.cxx/1.1/Mon Nov 26 19:04:29 2012//TSL18c
+/EEmc2ParticleCandidate.h/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcEnergy.cxx/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcEnergy.h/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcHit.cxx/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcHit.h/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcParticleCandidate.cxx/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcParticleCandidate.h/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcSmdCluster.cxx/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/EEmcSmdCluster.h/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/McParticle.cxx/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/McParticle.h/1.1/Mon Nov 26 19:04:30 2012//TSL18c
+/README.txt/1.1/Mon Nov 26 19:04:11 2012//TSL18c
+/StSpinInfo.cxx/1.2/Thu Feb 21 19:14:47 2013//TSL18c
+/StSpinInfo.h/1.2/Thu Feb 21 21:57:39 2013//TSL18c
+/TrigSet.cxx/1.1/Mon Nov 26 19:04:31 2012//TSL18c
+/TrigSet.h/1.1/Mon Nov 26 19:04:31 2012//TSL18c
+D

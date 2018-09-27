@@ -1,0 +1,18 @@
+/Makefile/1.25/Tue Jan 12 16:20:23 2016//TSL18c
+/daq_tpx.cxx/1.42/Thu Sep  3 13:57:15 2015//TSL18c
+/daq_tpx.h/1.15/Thu Sep  3 13:57:15 2015//TSL18c
+/tpxCore.cxx/1.34/Mon Jun 27 12:47:53 2016//TSL18c
+/tpxCore.h/1.12/Thu Jan  7 16:12:00 2016//TSL18c
+/tpxFCF.cxx/1.37/Tue Jan 12 16:20:23 2016//TSL18c
+/tpxFCF.h/1.18/Tue Jan 12 16:20:23 2016//TSL18c
+/tpxFCF_2D.cxx/1.4/Tue Jan 12 16:20:23 2016//TSL18c
+/tpxFCF_2D.h/1.3/Mon Jun  3 18:08:58 2013//TSL18c
+/tpxFCF_flags.h/1.3/Sun Mar 17 21:40:24 2013//TSL18c
+/tpxGain.cxx/1.32/Tue Jan 12 16:20:23 2016//TSL18c
+/tpxGain.h/1.19/Tue Mar 26 15:42:45 2013//TSL18c
+/tpxPed.cxx/1.35/Sat Jan 30 21:54:08 2016//TSL18c
+/tpxPed.h/1.12/Sat Jan 30 21:54:08 2016//TSL18c
+/tpxStat.cxx/1.18/Sun Mar 17 21:40:24 2013//TSL18c
+/tpxStat.h/1.9/Sun Mar 17 21:40:24 2013//TSL18c
+/tpx_fee_position.h/1.1/Thu Jan  7 16:12:00 2016//TSL18c
+D

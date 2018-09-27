@@ -1,0 +1,22 @@
+/ConstrainedParameter.cxx/2.4/Thu Aug  5 17:54:25 2004//TSL18c
+/ConstrainedParameter.h/2.2/Thu Aug  5 17:54:09 2004//TSL18c
+/Described.cxx/2.1/Thu Aug  5 17:54:25 2004//TSL18c
+/Described.h/2.1/Thu Aug  5 17:54:09 2004//TSL18c
+/EditableFilter.h/2.1/Fri Jan 10 20:34:08 2003//TSL18c
+/EditableParameter.cxx/2.3/Thu Aug  5 17:54:25 2004//TSL18c
+/EditableParameter.h/2.5/Tue Aug  9 15:19:36 2005//TSL18c
+/EditableParameters.cxx/2.3/Thu Feb 19 19:10:35 2004//TSL18c
+/EditableParameters.h/2.3/Thu Feb 19 19:10:36 2004//TSL18c
+/Factory.cxx/2.2/Sat Jun 24 02:58:28 2006//TSL18c
+/Factory.h/2.9/Fri Aug 28 16:39:21 2009//TSL18c
+/Filter.h/2.3/Tue Aug  9 15:20:47 2005//TSL18c
+/Named.cxx/2.4/Tue May 31 17:08:51 2005//TSL18c
+/Named.h/2.3/Tue May 31 17:08:45 2005//TSL18c
+/Parameter.cxx/2.2/Tue May 31 17:09:29 2005//TSL18c
+/Parameter.h/2.5/Tue May 31 17:10:05 2005//TSL18c
+/Parameters.cxx/2.4/Thu Feb 19 19:10:37 2004//TSL18c
+/Parameters.h/2.3/Thu Apr  3 20:03:48 2008//TSL18c
+/StiFactory.h/2.10/Wed Jun  8 23:32:43 2016//TSL18c
+/SubjectObserver.cxx/2.2/Tue Sep  2 17:59:45 2003//TSL18c
+/SubjectObserver.h/2.1/Tue Sep  2 17:59:45 2003//TSL18c
+D

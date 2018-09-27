@@ -1,0 +1,14 @@
+/Makefile/1.1/Fri Sep 23 18:39:37 2016//TSL18c
+/SANCinterface.c/1.1/Fri Sep 23 18:39:37 2016//TSL18c
+/SANCinterface.cxx/1.1/Fri Sep 23 18:39:37 2016//TSL18c
+/SANCinterfaceF.F/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/SANCtable.cxx/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/SANCtable.h/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/leshw_input.h/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/main_2d_2tau_NLO.F/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/main_2q_2tau_NLO.F/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/s2n_declare.h/1.1/Fri Sep 23 18:39:38 2016//TSL18c
+/s2n_init.F/1.1/Tue Oct 25 22:25:48 2016//TSL18c
+D/LoopTools-2.1////
+D/SancLib_v1_02////
+D/modules////

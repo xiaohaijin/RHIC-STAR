@@ -1,0 +1,17 @@
+/PACKAGE/1.1/Thu Jul 12 19:46:55 2007//TSL18c
+/README/1.3/Wed Feb 12 04:19:39 2003//TSL18c
+/StEvtTrigDetSumsMaker.cxx/1.3/Fri Jun 26 21:38:00 2015//TSL18c
+/StEvtTrigDetSumsMaker.h/1.3/Wed Aug  6 11:43:32 2014//TSL18c
+/StEvtVtxSeedMaker.cxx/1.14/Tue Aug  2 21:17:16 2016//TSL18c
+/StEvtVtxSeedMaker.h/1.5/Tue Aug  2 21:17:17 2016//TSL18c
+/StMuDstVtxSeedMaker.cxx/1.15/Tue Aug  2 21:17:17 2016//TSL18c
+/StMuDstVtxSeedMaker.h/1.5/Tue Aug  2 21:17:17 2016//TSL18c
+/StPicoDstVtxSeedMaker.cxx/1.1/Tue Aug  8 03:58:20 2017//TSL18c
+/StPicoDstVtxSeedMaker.h/1.1/Tue Aug  8 03:58:20 2017//TSL18c
+/StSpaceChargeDistMaker.cxx/1.9/Tue Feb 14 23:38:38 2017//TSL18c
+/StSpaceChargeDistMaker.h/1.5/Wed Aug  6 11:43:32 2014//TSL18c
+/StSpaceChargeEbyEMaker.cxx/1.67/Thu Feb 15 03:25:29 2018//TSL18c
+/StSpaceChargeEbyEMaker.h/1.21/Sat May 23 04:26:07 2015//TSL18c
+/StVertexSeedMaker.cxx/1.64/Tue Aug  8 03:58:20 2017//TSL18c
+/StVertexSeedMaker.h/1.25/Tue Aug  2 21:17:17 2016//TSL18c
+D

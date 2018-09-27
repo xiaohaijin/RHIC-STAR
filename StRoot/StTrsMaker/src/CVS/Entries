@@ -1,0 +1,23 @@
+/StSimpleMagneticField.cc/1.5/Mon Jun 11 15:04:55 2012//TSL18c
+/StTpcDbElectronics.cc/1.7/Sat Aug  2 14:33:09 2008//TSL18c
+/StTpcDbGeometry.cc/1.11/Tue Feb 20 22:45:53 2018//TSL18c
+/StTpcDbSlowControl.cc/1.5/Tue Nov  3 14:34:19 2009//TSL18c
+/StTpcSimpleElectronics.cc/1.9/Mon Jun 11 15:04:56 2012//TSL18c
+/StTpcSimpleGeometry.cc/1.12/Mon Jun 11 15:04:56 2012//TSL18c
+/StTrsAnalogSignal.cc/1.6/Fri Sep  9 22:12:49 2005//TSL18c
+/StTrsAnalogSignalGenerator.cc/1.12/Tue Sep  2 17:59:19 2003//TSL18c
+/StTrsChargeSegment.cc/1.43/Mon Jul 18 21:30:31 2011//TSL18c
+/StTrsChargeTransporter.cc/1.10/Fri Jun 20 15:01:16 2008//TSL18c
+/StTrsDeDx.cc/1.18/Mon Jun 11 15:04:56 2012//TSL18c
+/StTrsDetectorReader.cc/1.5/Fri Sep  9 22:12:49 2005//TSL18c
+/StTrsDigitalSignalGenerator.cc/1.4/Sun Feb 28 20:19:32 1999//TSL18c
+/StTrsFastChargeTransporter.cc/1.19/Tue Nov  3 14:34:19 2009//TSL18c
+/StTrsFastDigitalSignalGenerator.cc/1.31/Fri Jun 20 15:01:17 2008//TSL18c
+/StTrsMiniChargeSegment.cc/1.4/Wed Dec 24 13:44:53 2003//TSL18c
+/StTrsParameterizedAnalogSignalGenerator.cc/1.42/Tue Feb 20 22:45:53 2018//TSL18c
+/StTrsSector.cc/1.10/Thu Jul 12 20:25:05 2007//TSL18c
+/StTrsSlowAnalogSignalGenerator.cc/1.30/Tue Nov  3 14:34:19 2009//TSL18c
+/StTrsWireBinEntry.cc/1.5/Wed Dec 24 13:44:53 2003//TSL18c
+/StTrsWireHistogram.cc/1.33/Mon Jun 11 15:04:56 2012//TSL18c
+/StTrsZeroSuppressedReader.cc/1.14/Fri Jun 20 15:01:21 2008//TSL18c
+D

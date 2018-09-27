@@ -1,0 +1,18 @@
+/Makefile/1.1/Wed Jul 23 17:22:20 2014//TSL18c
+/Makefile.msc/1.1/Wed Jul 23 17:22:20 2014//TSL18c
+/StarPythia8.cxx/1.1/Wed Jul 23 17:22:49 2014//TSL18c
+/StarPythia8.h/1.1/Wed Jul 23 17:22:49 2014//TSL18c
+/StarPythia8Decayer.cxx/1.3/Tue Sep 19 14:05:22 2017//TSL18c
+/StarPythia8Decayer.h/1.2/Tue Nov  8 21:26:39 2016//TSL18c
+/configure/1.1/Wed Jul 23 17:21:52 2014//TSL18c
+/pythia8-config.in/1.1/Wed Jul 23 17:22:30 2014//TSL18c
+D/doc////
+D/examples////
+D/htmldoc////
+D/include////
+D/lhapdfdummy////
+D/phpdoc////
+D/pythia8tohepmc////
+D/rootexamples////
+D/src////
+D/xmldoc////

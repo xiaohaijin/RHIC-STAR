@@ -1,0 +1,16 @@
+/Makefile/1.9/Fri Jan 20 13:45:49 2012//TSL18c
+/cfgutil.cxx/1.6/Fri Jan 27 21:20:58 2017//TSL18c
+/cfgutil.h/1.2/Tue Sep 29 19:22:53 2009//TSL18c
+/daqConfig.h/1.2/Fri Dec  5 21:56:22 2008//TSL18c
+/daqReader.cxx/1.67/Tue Jun  6 16:01:10 2017//TSL18c
+/daqReader.h/1.32/Tue Mar 22 14:22:19 2016//TSL18c
+/daq_det.cxx/1.17/Fri Feb 17 09:41:08 2017//TSL18c
+/daq_det.h/1.10/Wed Aug  6 11:42:49 2014//TSL18c
+/daq_dta.cxx/1.9/Fri Feb 17 09:41:08 2017//TSL18c
+/daq_dta.h/1.9/Wed Aug  6 11:42:49 2014//TSL18c
+/daq_dta_structs.h/1.4/Wed Oct  3 18:50:55 2012//TSL18c
+/evpReaderClass.h/1.1/Tue Nov 25 20:22:08 2008//TSL18c
+/msgNQLib.cxx/1.5/Wed Apr 10 19:58:52 2013//TSL18c
+/msgNQLib.h/1.1/Fri Nov  7 17:01:48 2008//TSL18c
+/readEvents.C/1.2/Sat Nov  8 21:40:51 2008//TSL18c
+D

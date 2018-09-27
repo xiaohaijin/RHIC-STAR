@@ -1,0 +1,19 @@
+/BsmdRawData.cxx/1.1/Fri Jun 18 01:46:34 2004//TSL18c
+/BsmdRawData.h/1.1/Fri Jun 18 01:46:35 2004//TSL18c
+/EEdims.h/1.4/Mon Mar  1 18:01:03 2004//TSL18c
+/EEfeeDataBlock.cxx/1.16/Thu Jul 12 19:30:13 2007//TSL18c
+/EEfeeDataBlock.h/1.12/Mon Jun 21 19:50:21 2004//TSL18c
+/EEfeeRawEvent.cxx/1.21/Wed Oct 13 17:14:31 2004//TSL18c
+/EEfeeRawEvent.h/1.12/Tue Sep  7 20:32:01 2004//TSL18c
+/EEmcEventHeader.cxx/1.11/Thu Jul 12 19:30:13 2007//TSL18c
+/EEmcEventHeader.h/1.9/Thu Jul 12 19:30:13 2007//TSL18c
+/EEmcL3Tracks.cxx/1.10/Thu Sep 11 19:41:02 2003//TSL18c
+/EEmcL3Tracks.h/1.11/Thu Sep 11 19:41:02 2003//TSL18c
+/EEname2Index.cxx/1.6/Mon Apr 12 16:20:17 2004//TSL18c
+/EEname2Index.h/1.5/Thu Aug  5 18:43:09 2004//TSL18c
+/EEstarTrig.cxx/1.9/Tue Sep  7 20:32:01 2004//TSL18c
+/EEstarTrig.h/1.10/Thu Jul 12 19:30:13 2007//TSL18c
+/Makefile/1.8/Mon Aug  9 14:07:56 2004//TSL18c
+/Readme/1.2/Mon Jun 21 20:06:01 2004//TSL18c
+/RootWrapper.cxx/1.16/Thu Dec  3 21:15:34 2009//TSL18c
+D

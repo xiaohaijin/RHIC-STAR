@@ -1,0 +1,16 @@
+/StFssSectorReader.cc/1.5/Wed Jun 25 15:04:45 2014//TSL18c
+/StFssSectorReader.hh/1.1/Thu Nov 23 10:16:42 2000//TSL18c
+/StFtpcRawWriter.cc/1.10/Sat Nov 14 13:18:33 2009//TSL18c
+/StFtpcRawWriter.hh/1.2/Wed Jan 29 12:06:36 2003//TSL18c
+/StFtpcSlowSimCluster.cc/1.11/Tue Apr 17 04:59:22 2007//TSL18c
+/StFtpcSlowSimCluster.hh/1.4/Tue Sep  2 17:58:16 2003//TSL18c
+/StFtpcSlowSimField.cc/1.16/Tue May 15 14:35:18 2007//TSL18c
+/StFtpcSlowSimField.hh/1.7/Tue Sep  2 17:58:16 2003//TSL18c
+/StFtpcSlowSimLibs.cc/1.4/Sat Nov 14 12:42:27 2009//TSL18c
+/StFtpcSlowSimMaker.cxx/1.39/Wed Apr 26 19:50:08 2017//TSL18c
+/StFtpcSlowSimMaker.h/1.15/Wed Aug  6 11:43:17 2014//TSL18c
+/StFtpcSlowSimReadout.cc/1.21/Tue Jul 26 09:40:52 2011//TSL18c
+/StFtpcSlowSimReadout.hh/1.4/Wed Oct 16 12:31:56 2002//TSL18c
+/StFtpcSlowSimulator.cc/1.19/Sat Nov 14 13:18:33 2009//TSL18c
+/StFtpcSlowSimulator.hh/1.2/Tue Mar  6 23:36:30 2001//TSL18c
+D

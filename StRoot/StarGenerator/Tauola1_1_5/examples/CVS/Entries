@@ -1,0 +1,20 @@
+/Makefile/1.1/Fri Sep 23 18:39:49 2016//TSL18c
+/README/1.1/Fri Sep 23 18:39:49 2016//TSL18c
+/SETUP.C/1.1/Fri Sep 23 18:39:49 2016//TSL18c
+/configure/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/configure.in/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/make.inc.in/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/single_tau_gun_example.c/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/single_tau_gun_example.out/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/single_tau_gun_example_out.txt/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taumain_hepevt_example.c/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taumain_hepevt_example.out/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taumain_pythia_example.c/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taumain_pythia_example.out/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taumain_stand_alone_example.c/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taumain_stand_alone_example.out/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taummk_pythia_example.c/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/taummk_pythia_example.out/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/tauola_print_parameters.h/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+/tauola_set_seed.h/1.1/Fri Sep 23 18:39:50 2016//TSL18c
+D

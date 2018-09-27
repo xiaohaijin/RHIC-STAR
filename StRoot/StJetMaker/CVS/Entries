@@ -1,0 +1,59 @@
+/Makefile.am/1.6/Thu Nov 27 08:00:43 2008//TSL18c
+/StAnaPars.h/1.9/Mon May 22 19:31:03 2017//TSL18c
+/StBET4pMaker.cxx/1.15/Mon May 24 17:42:26 2010//TSL18c
+/StBET4pMaker.h/1.19/Wed Aug  6 11:43:22 2014//TSL18c
+/StFourPMaker.cxx/1.4/Mon Jul 21 01:59:44 2008//TSL18c
+/StFourPMaker.h/1.9/Sat May 22 13:43:20 2010//TSL18c
+/StJetMaker.cxx/1.75/Sat Jun  5 03:13:13 2010//TSL18c
+/StJetMaker.h/1.59/Wed Aug  6 11:43:22 2014//TSL18c
+/StJetMaker2009.cxx/1.12/Wed Jan  6 22:00:17 2016//TSL18c
+/StJetMaker2009.h/1.4/Wed Jan  6 22:00:17 2016//TSL18c
+/StJetMaker2012.cxx/1.2/Mon May 22 19:31:21 2017//TSL18c
+/StJetMaker2012.h/1.1/Wed Jan  6 22:24:02 2016//TSL18c
+/StJetReader.cxx/1.23/Thu Jul  1 15:29:06 2010//TSL18c
+/StJetReader.h/1.9/Wed Apr 14 23:21:43 2010//TSL18c
+/StJetScratch.cxx/1.6/Sun Aug  3 00:26:17 2008//TSL18c
+/StJetScratch.h/1.8/Wed Aug  6 11:43:22 2014//TSL18c
+/StJetSkimEventMaker.cxx/1.28/Mon Jan  2 15:33:26 2017//TSL18c
+/StJetSkimEventMaker.h/1.9/Mon Jan  2 15:33:26 2017//TSL18c
+/StPythiaFourPMaker.cxx/1.19/Thu Jan 27 20:43:12 2011//TSL18c
+/StPythiaFourPMaker.h/1.14/Mon May 24 23:11:35 2010//TSL18c
+/StUEMaker2009.cxx/1.4/Fri May 13 16:35:07 2016//TSL18c
+/StUEMaker2009.h/1.2/Thu Jan 28 20:35:43 2016//TSL18c
+/St_pythia_Maker.cxx/1.2/Sat Jan 21 00:44:29 2012//TSL18c
+/St_pythia_Maker.h/1.1/Thu Dec 17 22:09:12 2009//TSL18c
+/StjBEMCTowerMaker.cxx/1.4/Sun May 30 07:10:00 2010//TSL18c
+/StjBEMCTowerMaker.h/1.8/Wed Aug  6 11:43:22 2014//TSL18c
+/StjMCParticleMaker.cxx/1.4/Fri Aug 22 17:32:52 2008//TSL18c
+/StjMCParticleMaker.h/1.5/Wed Aug  6 11:43:22 2014//TSL18c
+/StjTPCTrackMaker.cxx/1.4/Sun May 30 07:10:00 2010//TSL18c
+/StjTPCTrackMaker.h/1.5/Wed Aug  6 11:43:22 2014//TSL18c
+/StjTreeEntryMaker.cxx/1.3/Sun Aug 10 23:04:36 2008//TSL18c
+/StjTreeEntryMaker.h/1.4/Sun Aug 10 23:04:36 2008//TSL18c
+/StppAnaPars.cxx/1.1/Mon Apr 21 16:03:10 2008//TSL18c
+/StppAnaPars.h/1.10/Sun Aug  3 00:26:18 2008//TSL18c
+/configure.ac/1.7/Thu Nov 27 08:00:43 2008//TSL18c
+/mainpage.h/1.1/Thu Jul  8 22:03:38 2004//TSL18c
+D/StJetHist////
+D/StJetSimuUtil////
+D/StPythia////
+D/StarTrigSimuSetup////
+D/dijets////
+D/emulator////
+D/examples////
+D/fourvec////
+D/jets////
+D/m4////
+D/macros////
+D/mckin////
+D/mcparticles////
+D/misc////
+D/mudst////
+D/scratch////
+D/spin////
+D/test////
+D/towers////
+D/tracks////
+D/tree////
+D/trigger////
+D/vertex////

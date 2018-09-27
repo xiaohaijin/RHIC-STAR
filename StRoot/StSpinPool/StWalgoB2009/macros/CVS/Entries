@@ -1,0 +1,32 @@
+/haddWana.C/1.18/Wed May 19 20:49:50 2010//TSL18c
+/haddWanaSL11b.C/1.1/Wed Sep 14 15:43:27 2011//TSL18c
+/makeBkgdFiles.C/1.7/Tue Aug 24 17:55:59 2010//TSL18c
+/makeBkgdFilesEta.C/1.2/Wed Oct 12 20:38:35 2011//TSL18c
+/makeBkgdFilesForRatio.C/1.1/Wed Sep 14 15:45:08 2011//TSL18c
+/makeToySpin.C/1.1/Thu Jan 28 20:10:08 2010//TSL18c
+/plBtowGainPerCrate.C/1.1/Tue Dec  8 16:53:01 2009//TSL18c
+/plCalcEffic.C/1.3/Wed Oct 12 20:38:35 2011//TSL18c
+/plCalcZeffic.C/1.2/Wed Oct 12 20:38:35 2011//TSL18c
+/plLumi.C/1.1/Wed Sep 14 15:45:25 2011//TSL18c
+/plPubJS.C/1.1/Mon Nov 23 23:00:20 2009//TSL18c
+/plReweight.C/1.1/Wed Sep 14 15:45:42 2011//TSL18c
+/plTh1.C/1.1/Wed Feb 24 18:26:24 2010//TSL18c
+/plTpcChi2.C/1.1/Tue Dec  8 16:53:01 2009//TSL18c
+/plTpcEffCorrect.C/1.1/Tue Feb 23 19:11:00 2010//TSL18c
+/plTransMass.C/1.1/Mon Nov 23 23:00:20 2009//TSL18c
+/plWAL_APS.C/1.1/Wed Feb 24 18:26:24 2010//TSL18c
+/plWJacob.C/1.2/Fri Jan 22 04:07:49 2010//TSL18c
+/plWana.C/1.17/Tue Nov  9 23:00:56 2010//TSL18c
+/plWjacob_APS.C/1.1/Wed Feb 24 18:33:56 2010//TSL18c
+/plWjj.C/1.2/Fri Jun 25 15:42:22 2010//TSL18c
+/plWxsec_APS.C/1.1/Wed Feb 24 18:33:56 2010//TSL18c
+/plZana.C/1.8/Sun Mar 14 22:50:34 2010//TSL18c
+/plotMCDataComp_2GeV.C/1.2/Tue Feb 23 21:12:24 2010//TSL18c
+/plotMCDataComp_4GeV.C/1.2/Tue Feb 23 21:12:24 2010//TSL18c
+/rdMuWana.C/1.45/Wed Oct 12 20:38:35 2011//TSL18c
+/scanBXoff_w2009.C/1.1/Tue Dec  8 16:53:01 2009//TSL18c
+/simW_jacobKin.C/1.1/Tue Dec  8 16:53:01 2009//TSL18c
+D/prd2011////
+D/prl2010////
+D/sched////
+D/vernierScan////

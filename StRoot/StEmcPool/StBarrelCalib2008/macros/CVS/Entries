@@ -1,0 +1,16 @@
+/avrPMB.C/1.1/Mon Nov 24 23:06:41 2008//TSL18c
+/bigFit.sh/1.1/Mon Nov 24 23:06:42 2008//TSL18c
+/calibBprsBox.C/1.1/Mon Nov 24 23:06:42 2008//TSL18c
+/doAvrPed.C/1.1/Mon Nov 24 23:06:42 2008//TSL18c
+/doBprsPed3D.C/1.1/Mon Nov 24 23:06:42 2008//TSL18c
+/doBprsPedTonko.C/1.1/Mon Nov 24 23:06:43 2008//TSL18c
+/findMap.C/1.1/Mon Nov 24 23:06:43 2008//TSL18c
+/hadd.C/1.1/Mon Nov 24 23:06:43 2008//TSL18c
+/mergePed.C/1.1/Mon Nov 24 23:06:43 2008//TSL18c
+/plBprsSlope.C/1.1/Mon Nov 24 23:06:44 2008//TSL18c
+/plGainBprs.C/1.1/Mon Nov 24 23:06:44 2008//TSL18c
+/plPedAllCap.C/1.1/Mon Nov 24 23:06:44 2008//TSL18c
+/plSwap-byCrate.C/1.1/Mon Nov 24 23:06:44 2008//TSL18c
+/plSwap.C/1.1/Mon Nov 24 23:06:44 2008//TSL18c
+/rdMu2BprsAbsCal.C/1.1/Sat Dec  6 02:01:01 2008//TSL18c
+D

@@ -1,0 +1,27 @@
+/SpinCutsIU.cxx/1.1/Thu Oct 30 15:59:03 2008//TSL18c
+/SpinCutsIU.h/1.1/Thu Oct 30 15:59:03 2008//TSL18c
+/SpinIUHistos.cxx/1.3/Mon Apr 11 19:35:41 2011//TSL18c
+/SpinIUHistos.h/1.2/Mon Jan 26 14:37:41 2009//TSL18c
+/StEEmcIUCluster.cxx/1.1/Thu Oct 30 15:52:07 2008//TSL18c
+/StEEmcIUCluster.h/1.1/Thu Oct 30 15:52:08 2008//TSL18c
+/StEEmcIUClusterMaker.cxx/1.2/Tue Jun 24 21:11:20 2014//TSL18c
+/StEEmcIUClusterMaker.h/1.1/Thu Oct 30 15:52:09 2008//TSL18c
+/StEEmcIUMixEvent.cxx/1.2/Mon Apr 11 19:35:41 2011//TSL18c
+/StEEmcIUMixEvent.h/1.1/Thu Oct 30 15:52:10 2008//TSL18c
+/StEEmcIUMixMaker.cxx/1.1/Thu Oct 30 15:52:10 2008//TSL18c
+/StEEmcIUMixMaker.h/1.1/Thu Oct 30 15:52:11 2008//TSL18c
+/StEEmcIUPair.cxx/1.2/Mon Jan 26 14:37:41 2009//TSL18c
+/StEEmcIUPair.h/1.1/Thu Oct 30 15:52:11 2008//TSL18c
+/StEEmcIUPi0Analysis.cxx/1.3/Tue Jun 24 21:11:20 2014//TSL18c
+/StEEmcIUPi0Analysis.h/1.1/Thu Oct 30 15:52:12 2008//TSL18c
+/StEEmcIUPi0Reader.cxx/1.1/Thu Oct 30 15:52:12 2008//TSL18c
+/StEEmcIUPi0Reader.h/1.1/Thu Oct 30 15:52:12 2008//TSL18c
+/StEEmcIUPoint.cxx/1.1/Thu Oct 30 15:52:13 2008//TSL18c
+/StEEmcIUPoint.h/1.1/Thu Oct 30 15:52:13 2008//TSL18c
+/StEEmcIUPointMaker.cxx/1.2/Tue Jun 24 21:11:20 2014//TSL18c
+/StEEmcIUPointMaker.h/1.1/Thu Oct 30 15:52:14 2008//TSL18c
+/StEEmcIUSmdCluster.cxx/1.1/Thu Oct 30 15:52:14 2008//TSL18c
+/StEEmcIUSmdCluster.h/1.3/Mon Apr 11 19:35:41 2011//TSL18c
+/StMcOutputMaker.cxx/1.3/Mon Apr 11 19:35:41 2011//TSL18c
+/StMcOutputMaker.h/1.2/Wed Aug  6 11:43:00 2014//TSL18c
+D/macros////

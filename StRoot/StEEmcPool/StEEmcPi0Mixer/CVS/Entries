@@ -1,0 +1,19 @@
+/SpinCuts.cxx/1.1/Sun Oct  2 20:12:02 2005//TSL18c
+/SpinCuts.h/1.1/Sun Oct  2 20:12:02 2005//TSL18c
+/SpinHistos.cxx/1.3/Thu Aug 26 22:49:26 2010//TSL18c
+/SpinHistos.h/1.4/Thu Aug 26 22:49:26 2010//TSL18c
+/StEEmcMixEvent.cxx/2.0/Thu Apr  5 15:58:17 2007//TSL18c
+/StEEmcMixEvent.h/2.0/Thu Apr  5 15:58:17 2007//TSL18c
+/StEEmcMixMaker.cxx/1.2/Sun Oct  2 20:12:02 2005//TSL18c
+/StEEmcMixMaker.h/1.1/Tue Aug 23 18:01:17 2005//TSL18c
+/StEEmcMixQAMaker.cxx/1.3/Tue Sep  6 18:15:02 2005//TSL18c
+/StEEmcMixQAMaker.h/1.3/Tue Sep  6 18:15:03 2005//TSL18c
+/StEEmcPair.cxx/1.4/Thu Aug 26 22:49:26 2010//TSL18c
+/StEEmcPair.h/1.3/Thu Aug 26 22:49:26 2010//TSL18c
+/StEEmcPi0Analysis.cxx/1.9/Tue Jun 24 21:11:20 2014//TSL18c
+/StEEmcPi0Analysis.h/1.4/Mon Jul 24 21:52:11 2006//TSL18c
+/StEEmcPi0Maker.cxx/1.5/Fri Aug 17 13:20:11 2007//TSL18c
+/StEEmcPi0Maker.h/1.4/Tue Apr 17 21:01:34 2007//TSL18c
+/StEEmcPi0Reader.cxx/1.2/Sat Feb 10 17:53:32 2007//TSL18c
+/StEEmcPi0Reader.h/1.2/Sat Feb 10 17:53:32 2007//TSL18c
+D/macros////

@@ -1,0 +1,15 @@
+/bigSectloop.sh/1.4/Thu Sep 29 13:57:59 2005//TSL18c
+/bigSort.sh/1.4/Thu Sep 29 13:57:59 2005//TSL18c
+/doSmdGains.C/1.7/Tue Aug 21 13:10:12 2007//TSL18c
+/fitPrePost.C/1.5/Tue Aug 21 13:10:12 2007//TSL18c
+/fitSlope5.C/1.2/Fri Sep 16 20:18:43 2005//TSL18c
+/fitTower.C/1.6/Tue Aug 21 13:10:12 2007//TSL18c
+/fixGainUsingSlope.tcl/1.2/Fri Sep 16 20:18:43 2005//TSL18c
+/hadd.C/1.5/Tue Aug 21 13:10:12 2007//TSL18c
+/plBlue.C/1.1/Wed May  4 17:00:41 2005//TSL18c
+/plPresMap.C/1.6/Thu Sep 29 13:57:59 2005//TSL18c
+/plSmdCal.C/1.5/Tue Aug 21 13:10:12 2007//TSL18c
+/plTwCal.C/1.4/Tue Aug 21 13:10:12 2007//TSL18c
+/rdEztMuSmdCal.C/1.9/Wed Feb  4 20:33:23 2009//TSL18c
+/reCalSmd.C/1.2/Tue Aug 21 13:10:13 2007//TSL18c
+D

@@ -1,0 +1,15 @@
+/StEEmc2x2ClusterMaker.cxx/1.2/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmc2x2ClusterMaker.h/1.4/Wed Aug  6 11:42:59 2014//TSL18c
+/StEEmcBaseCluster.cxx/1.4/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmcBaseCluster.h/1.4/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmcCluster.cxx/1.8/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmcCluster.h/1.8/Mon Jun 11 14:35:04 2012//TSL18c
+/StEEmcClusterMaker.cxx/1.9/Wed Jun 25 14:57:36 2014//TSL18c
+/StEEmcClusterMaker.h/1.5/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmcGenericClusterMaker.cxx/1.7/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmcGenericClusterMaker.h/1.8/Wed Aug  6 11:42:59 2014//TSL18c
+/StEEmcSmdCluster.cxx/1.5/Thu Aug 26 22:49:25 2010//TSL18c
+/StEEmcSmdCluster.h/1.7/Mon Jun 11 14:35:04 2012//TSL18c
+/StMyClusterMaker.cxx/1.5/Thu Aug 26 22:49:25 2010//TSL18c
+/StMyClusterMaker.h/1.6/Wed Aug  6 11:42:59 2014//TSL18c
+D/macros////

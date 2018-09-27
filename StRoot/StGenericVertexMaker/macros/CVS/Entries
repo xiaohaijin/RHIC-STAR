@@ -1,0 +1,15 @@
+/Makefile/1.2/Thu Dec  3 17:34:26 2009//TSL18c
+/Readme_3DbeamLineFit/1.2/Tue Jun 26 16:38:57 2012//TSL18c
+/UtilBeamLine3D.cxx/1.4/Tue Jun 26 16:38:57 2012//TSL18c
+/UtilBeamLine3D.h/1.2/Fri Jun  8 20:04:13 2012//TSL18c
+/doAllFills-stdin.sh/1.2/Tue Jun 26 16:38:58 2012//TSL18c
+/likeFuncBeamLine3D.cxx/1.2/Thu Dec  3 14:13:21 2009//TSL18c
+/mainFitBeamLine3D.cxx/1.4/Tue Jun 26 16:38:58 2012//TSL18c
+/pl3DbeamLine.C/1.1/Fri Jun  8 20:04:14 2012//TSL18c
+/plPPVtrack4beamLine.C/1.1/Thu Jul  9 21:29:05 2009//TSL18c
+/rdBLtxt2C.py/1.1/Tue Jun 26 16:38:58 2012//TSL18c
+/rdMu2Plot.C/1.1/Fri Aug 12 18:35:30 2005//TSL18c
+/rdMuDst2print.C/1.14/Mon Mar 19 22:21:02 2012//TSL18c
+/rdSt2print.C/1.6/Mon Jul 31 17:58:24 2006//TSL18c
+/vertexSeed.20120101.000001.C/1.1/Tue Jun 26 16:38:58 2012//TSL18c
+D

@@ -1,0 +1,22 @@
+/.includes_for_export.flg/1.1/Fri Jun  8 17:33:33 2001//TSL18c
+/StCL.h/1.2/Thu Jul 12 20:37:48 2007//TSL18c
+/StTypeDefs.h/1.4/Thu Apr 27 17:41:48 2000//TSL18c
+/St_DataSet.h/1.1/Fri Feb 25 00:48:06 2000//TSL18c
+/St_DataSetIter.h/1.1/Fri Feb 25 00:48:06 2000//TSL18c
+/St_FileSet.h/1.1/Fri Feb 25 00:48:06 2000//TSL18c
+/St_Node.h/1.1/Fri Feb 25 00:48:06 2000//TSL18c
+/St_NodePosition.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_NodeView.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_NodeViewIter.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_ObjectSet.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_PointPosition.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_Points3D.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_PointsArray3D.h/1.1/Fri Feb 25 00:48:07 2000//TSL18c
+/St_PolyLineShape.h/1.1/Fri Feb 25 00:48:08 2000//TSL18c
+/St_Table.h/1.1/Fri Feb 25 00:48:08 2000//TSL18c
+/St_Table3Points.h/1.1/Fri Feb 25 00:48:08 2000//TSL18c
+/St_TableIter.h/1.1/Fri Feb 25 00:48:08 2000//TSL18c
+/St_TablePoints.h/1.1/Fri Feb 25 00:48:09 2000//TSL18c
+/St_TableSorter.h/1.1/Fri Feb 25 00:48:09 2000//TSL18c
+/St_tableDescriptor.h/1.1/Fri Feb 25 00:48:09 2000//TSL18c
+D

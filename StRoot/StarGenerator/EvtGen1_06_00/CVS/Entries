@@ -1,0 +1,27 @@
+/DECAY.DEC/1.1/Fri Sep 23 18:37:27 2016//TSL18c
+/DECAY.XML/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/DECAY_2009.DEC/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/DECAY_2009.XML/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/DECAY_2010.DEC/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/DECAY_2010.XML/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/History.txt/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/Makefile/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/Pythia8_README.txt/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/README/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/StarEvtGenDecayer.cxx/1.2/Tue Nov  1 18:43:37 2016//TSL18c
+/StarEvtGenDecayer.h/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/Tauola_README.txt/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/configure/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/convertDecayFile.py/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/evt.pdl/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/setupEvtGen.sh/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+/updateDecFileP6toP8.py/1.1/Fri Sep 23 18:37:28 2016//TSL18c
+D/EvtGen////
+D/EvtGenBase////
+D/EvtGenExternal////
+D/EvtGenModels////
+D/doc////
+D/platform////
+D/src////
+D/test////
+D/validation////

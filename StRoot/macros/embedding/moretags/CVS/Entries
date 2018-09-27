@@ -1,0 +1,13 @@
+/README/1.2/Tue Dec  5 05:25:37 2017//TSL18c
+/Scheduler.xml/1.2/Thu Dec  7 04:43:43 2017//TSL18c
+/Scheduler_daqchop.xml/1.1/Thu Dec  7 04:54:31 2017//TSL18c
+/clean.sh/1.1/Tue Dec  5 04:57:06 2017//TSL18c
+/daqchop.sh/1.1/Thu Dec  7 04:54:09 2017//TSL18c
+/makeMuDstQA.C/1.5/Thu Dec  7 05:38:31 2017//TSL18c
+/runmakeMuDstQA.C/1.1/Tue Dec  5 04:54:46 2017//TSL18c
+/runmakeMuDstQA.csh/1.1/Tue Dec  5 04:55:05 2017//TSL18c
+/runterm.sh/1.4/Thu Dec  7 05:37:53 2017//TSL18c
+/submit.sh/1.2/Tue Dec  5 09:15:24 2017//TSL18c
+/submit_daqchop.sh/1.1/Thu Dec  7 04:54:54 2017//TSL18c
+/tryfirst.sh/1.2/Tue Dec  5 09:15:13 2017//TSL18c
+D

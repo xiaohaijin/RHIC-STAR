@@ -1,0 +1,22 @@
+/Readme/1.2/Thu Oct 11 21:22:56 2007//TSL18c
+/StGenericL2Emulator.cxx/1.18/Mon Oct 12 18:04:36 2009//TSL18c
+/StGenericL2Emulator.h/1.13/Wed Feb  4 20:25:38 2009//TSL18c
+/StGenericL2Emulator2009.cxx/1.10/Fri Apr  1 23:59:19 2011//TSL18c
+/StGenericL2Emulator2009.h/1.5/Fri Apr  1 23:59:19 2011//TSL18c
+/StL2TriggerSimu.cxx/1.8/Sat Apr 17 16:41:51 2010//TSL18c
+/StL2TriggerSimu.h/1.10/Thu Mar 17 15:51:47 2011//TSL18c
+/StL2_2006EmulatorMaker.cxx/1.13/Fri Aug 13 00:44:16 2010//TSL18c
+/StL2_2006EmulatorMaker.h/1.7/Wed Jan 30 15:09:32 2008//TSL18c
+/StL2_2008EmulatorMaker.cxx/1.4/Tue Oct 14 00:53:12 2008//TSL18c
+/StL2_2008EmulatorMaker.h/1.4/Tue Oct 14 00:53:12 2008//TSL18c
+/StL2_2009EmulatorMaker.cxx/1.11/Thu Mar 22 06:40:54 2012//TSL18c
+/StL2_2009EmulatorMaker.h/1.2/Sat Apr 17 06:13:30 2010//TSL18c
+/fakeRtsLog.h/1.1/Wed Oct 19 14:34:23 2011//TSL18c
+D/L2algoUtil////
+D/L2gammaAlgo////
+D/L2hienAlgo////
+D/L2jetAlgo////
+D/L2pedAlgo////
+D/L2upsilon////
+D/L2wAlgo////
+D/macros////

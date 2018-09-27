@@ -1,0 +1,12 @@
+/agvEffs.C/1.24/Wed May  1 16:49:33 2013//TSL18c
+/agvEffsPoints.C/1.6/Sat Mar  2 18:32:47 2013//TSL18c
+/fgtMapDump-jan28.csv/1.1/Sat Feb  9 16:19:44 2013//TSL18c
+/getAvgEff.C/1.14/Wed Jun  6 01:16:46 2012//TSL18c
+/getCluAvgEff.C/1.8/Wed Mar  6 13:01:34 2013//TSL18c
+/runMuDstAVEff.C/1.14/Fri May 10 18:20:09 2013//TSL18c
+/saveClusterSizes.C/1.2/Mon Jun  4 16:14:28 2012//TSL18c
+/savePulseShapes.C/1.1/Wed May 30 19:28:40 2012//TSL18c
+/saveSignalChar.C/1.5/Wed Mar  6 13:01:34 2013//TSL18c
+/saveSignalCharAPV.C/1.1/Fri Jul  6 01:09:35 2012//TSL18c
+/saveTrackQA.C/1.7/Tue Mar  5 20:27:31 2013//TSL18c
+D

@@ -1,0 +1,47 @@
+/.cvsignore/1.2/Mon May 10 19:15:41 1999//TSL18c
+/.rootrc/1.1/Mon Nov 16 18:36:48 2009//TSL18c
+/AgML.C/1.1/Fri Jul 19 13:14:26 2013//TSL18c
+/Ast2Root.C/1.1/Fri Dec  1 19:42:52 2006//TSL18c
+/Ast2Rz.C/1.1/Fri Jul 19 13:14:26 2013//TSL18c
+/ClearRoot.C/1.2/Sun Apr  3 21:48:09 2011//TSL18c
+/DbBrowse.C/1.1/Wed Jan  8 19:43:15 2003//TSL18c
+/DialogsQ.C/1.3/Fri Jan 19 19:36:20 2007//TSL18c
+/GL.C/1.2/Tue Nov 26 02:31:10 2002//TSL18c
+/GeometryTags.C/1.1/Fri Apr 18 19:10:12 2008//TSL18c
+/LS.C/1.1/Fri Sep 22 19:22:39 2006//TSL18c
+/LeakFinder.C/1.2/Thu Sep 16 02:10:09 2004//TSL18c
+/Load.C/1.23/Thu Dec  1 15:10:44 2016//TSL18c
+/LoadLogger.C/1.8/Thu Aug  6 19:17:49 2009//TSL18c
+/MuMomShift.C/1.2/Fri May 13 19:25:53 2005//TSL18c
+/RedoSpaceCharge.C/1.5/Mon Jul 27 15:29:56 2015//TSL18c
+/STAR_Demos.C/1.7/Fri May 21 15:33:52 1999//TSL18c
+/SetEvol.C/1.1/Sat Sep 30 17:51:53 2000//TSL18c
+/SetQtEnv.C/1.4/Mon Oct 30 20:38:01 2006//TSL18c
+/StAll.h/1.1/Fri May 16 14:39:51 2003//TSL18c
+/StMuDstMaker.C/1.16/Wed Nov 29 20:29:44 2017//TSL18c
+/StMuDstMakerYear1.C/1.5/Tue Mar 16 16:23:08 2010//TSL18c
+/Star2Root.C/1.1/Mon Aug  9 01:01:54 2004//TSL18c
+/bfc.C/1.193/Mon Jan 29 20:18:12 2018//TSL18c
+/bfcS.C/1.7/Tue Aug 15 21:42:29 2006//TSL18c
+/bfcZ.C/1.1/Sat Mar 24 03:08:58 2001//TSL18c
+/daqDump.C/1.1/Fri Jan 22 21:09:43 2010//TSL18c
+/detectorId.C/1.1/Sat Mar 21 02:11:43 2015//TSL18c
+/doCopy.C/1.2/Tue Jul 19 20:11:25 2011//TSL18c
+/fz2root.C/1.4/Tue Feb 22 20:52:57 2011//TSL18c
+/histCopy.C/1.1/Fri Dec 28 23:16:20 2001//TSL18c
+/loadMuDst.C/1.5/Mon Feb 29 20:27:28 2016//TSL18c
+/lsFile.C/1.1/Mon Apr  3 19:47:28 2000//TSL18c
+/makePicoDst.C/1.2/Fri Jul 14 13:26:14 2017//TSL18c
+/ojtable.C/1.1/Fri Sep  3 20:54:49 2004//TSL18c
+/starsim.C/1.3/Thu Mar  4 20:00:01 2010//TSL18c
+/tpc.C/1.9/Sat May  1 01:47:31 1999//TSL18c
+D/analysis////
+D/calib////
+D/doc////
+D/embedding////
+D/examples////
+D/graphics////
+D/html////
+D/mudst////
+D/qa////
+D/scheduler////

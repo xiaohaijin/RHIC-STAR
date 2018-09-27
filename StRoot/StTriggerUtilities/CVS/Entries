@@ -1,0 +1,19 @@
+/Readme/1.2/Thu Jul 22 17:14:39 2010//TSL18c
+/StTriggerDefinition.h/1.5/Fri Mar 18 22:42:09 2016//TSL18c
+/StTriggerSimuMaker.cxx/1.65/Fri Dec 29 16:54:07 2017//TSL18c
+/StTriggerSimuMaker.h/1.34/Mon Jan  2 15:31:39 2017//TSL18c
+/StTriggerSimuPlayMaker.cxx/1.3/Sun Nov 18 21:58:50 2007//TSL18c
+/StTriggerSimuPlayMaker.h/1.1/Fri Oct 12 20:10:24 2007//TSL18c
+/StTriggerSimuResult.cxx/1.9/Fri Mar 18 22:49:38 2016//TSL18c
+/StTriggerSimuResult.h/1.8/Fri Mar 18 22:49:38 2016//TSL18c
+/StTriggerThreshold.h/1.3/Thu Aug 12 09:03:53 2010//TSL18c
+/StVirtualTriggerSimu.cxx/1.5/Tue Dec 22 18:10:57 2009//TSL18c
+/StVirtualTriggerSimu.h/1.7/Fri Mar 18 22:49:39 2016//TSL18c
+D/Bbc////
+D/Bemc////
+D/Eemc////
+D/Emc////
+D/L2Emulator////
+D/StDSMUtilities////
+D/StJanEventMaker////
+D/macros////

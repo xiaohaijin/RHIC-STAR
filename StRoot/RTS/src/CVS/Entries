@@ -1,0 +1,37 @@
+/rtsmakefile.def/1.30/Mon Nov  7 20:44:44 2016//TSL18c
+/rtsplus.def/1.3/Wed Jan 25 14:30:34 2012//TSL18c
+/rtsplusplus.def/1.24/Tue Nov 14 17:13:20 2017//TSL18c
+D/DAQ_BSMD////
+D/DAQ_BTOW////
+D/DAQ_EMC////
+D/DAQ_ESMD////
+D/DAQ_ETOF////
+D/DAQ_ETOW////
+D/DAQ_FCS////
+D/DAQ_FGT////
+D/DAQ_FPD////
+D/DAQ_FPS////
+D/DAQ_FTP////
+D/DAQ_HLT////
+D/DAQ_ITPC////
+D/DAQ_L3////
+D/DAQ_L4////
+D/DAQ_MTD////
+D/DAQ_PMD////
+D/DAQ_PP2PP////
+D/DAQ_PXL////
+D/DAQ_READER////
+D/DAQ_RHICF////
+D/DAQ_RIC////
+D/DAQ_SC////
+D/DAQ_SSD////
+D/DAQ_SST////
+D/DAQ_SVT////
+D/DAQ_TOF////
+D/DAQ_TPC////
+D/DAQ_TPX////
+D/DAQ_TRG////
+D/FCF////
+D/LOG////
+D/RTS_EXAMPLE////
+D/SFS////

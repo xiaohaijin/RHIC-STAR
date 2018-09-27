@@ -1,0 +1,19 @@
+/StBTofDaqMap.cxx/1.5/Fri Dec 14 06:35:41 2012//TSL18c
+/StBTofDaqMap.h/1.3/Fri Oct 20 17:50:33 2017//TSL18c
+/StBTofGeometry.cxx/1.31/Mon Feb 26 23:29:12 2018//TSL18c
+/StBTofGeometry.h/1.25/Fri Mar  9 21:36:17 2018//TSL18c
+/StBTofHitCollection.cxx/1.1/Mon Feb  2 21:57:09 2009//TSL18c
+/StBTofHitCollection.h/1.5/Fri Oct 20 17:50:33 2017//TSL18c
+/StBTofINLCorr.cxx/1.11/Fri Dec  6 23:27:59 2013//TSL18c
+/StBTofINLCorr.h/1.8/Thu Sep 21 22:21:18 2017//TSL18c
+/StBTofRawHitCollection.cxx/1.1/Mon Feb  2 21:57:21 2009//TSL18c
+/StBTofRawHitCollection.h/1.5/Fri Oct 20 17:50:33 2017//TSL18c
+/StBTofSortRawHit.cxx/1.10/Fri Dec 10 21:37:45 2010//TSL18c
+/StBTofSortRawHit.h/1.7/Fri Oct 20 17:50:33 2017//TSL18c
+/StBTofTables.cxx/1.4/Fri Oct 20 17:50:33 2017//TSL18c
+/StBTofTables.h/1.1/Fri Aug 28 17:22:02 2009//TSL18c
+/StV0TofCorrection.cxx/1.3/Fri Oct 20 17:50:33 2017//TSL18c
+/StV0TofCorrection.h/1.2/Mon Jan 20 16:55:50 2014//TSL18c
+/tofPathLength.cc/1.1/Wed Feb 11 17:31:14 2009//TSL18c
+/tofPathLength.hh/1.1/Wed Feb 11 17:31:14 2009//TSL18c
+D

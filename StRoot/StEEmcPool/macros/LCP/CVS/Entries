@@ -1,0 +1,26 @@
+/Readme/1.1/Mon Oct 20 17:03:46 2003//TSL18c
+/Task1.tcl/1.2/Tue Aug 15 21:41:38 2006//TSL18c
+/Task2.tcl/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/Task3.tcl/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/Task5.tcl/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/Task6.tcl/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/addFills.C/1.2/Wed Nov 12 18:43:50 2003//TSL18c
+/addRuns.C/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/compSelection.C/1.2/Wed Nov 12 18:43:50 2003//TSL18c
+/diffLcpMuDst_Geant.C/1.1/Tue Jan  6 17:25:34 2004//TSL18c
+/doRatio.C/1.2/Wed Nov 12 18:43:50 2003//TSL18c
+/endPlot.C/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/evalFills.C/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/getPol.C/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/instrAsy.C/1.1/Wed Nov 12 18:43:50 2003//TSL18c
+/plCut.C/1.2/Mon Oct 20 17:03:51 2003//TSL18c
+/plDiffGvR.C/1.1/Tue Jan  6 17:25:34 2004//TSL18c
+/plFills.C/1.1/Mon Oct 20 17:03:51 2003//TSL18c
+/plPro.C/1.1/Mon Oct 20 17:03:52 2003//TSL18c
+/proLcpTree.C/1.2/Wed Nov 12 18:43:50 2003//TSL18c
+/rdGeantLcpTreeTest.C/1.1/Tue Jan  6 17:25:34 2004//TSL18c
+/rdLcpTreeTest.C/1.1/Tue Sep 16 19:17:26 2003//TSL18c
+/rdMuDst2LcpTree.C/1.2/Mon Oct 20 17:03:52 2003//TSL18c
+/rdMuDstAndGeant2Lcp.C/1.1/Tue Jan  6 17:25:34 2004//TSL18c
+/rdMuDst_Geant2print.C/1.1/Tue Jan  6 17:25:34 2004//TSL18c
+D
