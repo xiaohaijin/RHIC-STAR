@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<job fileListSyntax="xrootd" minFilesPerProcess="20" maxFilesPerProcess="25" simulateSubmission="false">
+	<command>
+		set mainDir = /star/u/pengliu/gpfs01/SimpleExample
+		cp -rf ${mainDir}/.sl64_gcc482 .
+		cp -rf ${mainDir}/StRoot .
+		cp -f  ${mainDir}/reco.C .
+		ln -s  .sl64_gcc482  .sl64_gcc447
+
+		starver SL16k
+
+		root4star -q -b reco.C\(\"$FILELIST\",$INPUTFILECOUNT,0,\"$SCRATCH/\",\"$JOBID\"\)
+	</command>
+
+	<stdout URL="file:/star/u/pengliu/gpfs01/SimpleExample/input/runinfo/out/$JOBID.log"/>
+	<stderr URL="file:/star/u/pengliu/gpfs01/SimpleExample/input/runinfo/err/$JOBID.err"/>
+
+	<Generator>
+		<Location>/star/u/pengliu/gpfs01/SimpleExample/input/runinfo/report/</Location>
+		<ScriptLocation>/star/u/pengliu/gpfs01/SimpleExample/input/runinfo/csh/</ScriptLocation>
+		<ListLocation>/star/u/pengliu/gpfs01/SimpleExample/input/runinfo/list/</ListLocation>
+	</Generator>
+	<input URL="catalog:star.bnl.gov?storage=hpss,production=P16ik,trgsetupname=AuAu_200_production_2016,filetype=daq_reco_MuDst,filename~st_hlt" singleCopy="true" nFiles="20" />
+	<output fromScratch="*.root" toURL="file:/star/u/pengliu/gpfs01/SimpleExample/output/"/>
+</job>

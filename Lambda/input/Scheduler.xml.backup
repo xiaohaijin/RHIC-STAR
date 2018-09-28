@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<job fileListSyntax="xrootd" minFilesPerProcess="1" maxFilesPerProcess="2" simulateSubmission="false">
+	<command>
+		set mainDir = /star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low
+		cp -rf ${mainDir}/.sl73_gcc485 .
+		cp -rf ${mainDir}/StRoot .
+		cp -f  ${mainDir}/reco.C .
+
+		starnew
+
+		root4star -q -b reco.C\(\"$FILELIST\",$INPUTFILECOUNT,0,\"$SCRATCH/\",\"$JOBID\"\)
+	</command>
+
+	<stdout URL="file:/star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low/input/part1/runinfo/out/$JOBID.log"/>
+	<stderr URL="file:/star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low/input/part1/runinfo/err/$JOBID.err"/>
+
+	<Generator>
+		<Location>/star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low/input/part1/runinfo/report/</Location>
+		<ScriptLocation>/star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low/input/part1/runinfo/csh/</ScriptLocation>
+		<ListLocation>/star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low/input/part1/runinfo/list/</ListLocation>
+	</Generator>
+	<input URL="catalog:star.bnl.gov?storage=hpss,production=P16id,trgsetupname=AuAu_200_production_low_2014,runnumber[]15094068-15104000,filetype=daq_reco_MuDst,filename~st_physics" singleCopy="true" nFiles="all"/>
+	<output fromScratch="*.root" toURL="file:/star/u/pengliu/gpfs01/Lambda/R14AuAu200GeV_withHFTcode/low/output1/"/>
+</job>

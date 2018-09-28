@@ -1,0 +1,14 @@
+HelloWorld.C Notes:
+
+Make sure to "cons" in this directory before you try to run
+the macro.  This is because it depends on software in the
+StRoot subdirectory.
+
+Execute the HelloWorld.C() macro using root4star.  
+
+For example:
+
+root4star [0] .x HelloWorld.C() 
+
+The output goes to the screen.  It is merely a bunch
+of lines with *** hello world *** interspersed.

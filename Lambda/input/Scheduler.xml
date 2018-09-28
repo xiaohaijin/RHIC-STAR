@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<job fileListSyntax="xrootd" minFilesPerProcess="1" maxFilesPerProcess="2" simulateSubmission="false">
+	<command>
+		set mainDir = /star/u/jhai/Strangeness/fromPeng/
+		cp -r ${mainDir}/.sl73_gcc485 .
+		cp -r ${mainDir}/StRoot .
+		cp -f ${mainDir}/reco.C .
+
+		starnew
+
+		root4star -q -b reco.C\(\"$FILELIST\",$INPUTFILECOUNT,0,\"$SCRATCH/\",\"$JOBID\"\)
+	</command>
+
+	<stdout URL="file:/star/u/jhai/Strangeness/fromPeng/input/runinfo/out/$JOBID.log"/>
+	<stderr URL="file:/star/u/jhai/Strangeness/fromPeng/input/runinfo/err/$JOBID.err"/>
+
+	<Generator>
+		<Location>/star/u/jhai/Strangeness/fromPeng/input/runinfo/report/</Location>
+		<ScriptLocation>/star/u/jhai/Strangeness/fromPeng/input/runinfo/csh/</ScriptLocation>
+		<ListLocation>/star/u/jhai/Strangeness/fromPeng/input/runinfo/list/</ListLocation>
+	</Generator>
+	<input URL="catalog:star.bnl.gov?storage=hpss,production=P16id,trgsetupname=AuAu_200_production_low_2014,runnumber[]15094068-15104000,filetype=daq_reco_MuDst,filename~st_physics" singleCopy="true" nFiles="100"/>
+	<output fromScratch="*.root" toURL="file:/star/u/jhai/Strangeness/fromPeng/output/"/>
+</job>
