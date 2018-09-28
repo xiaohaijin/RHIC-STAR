@@ -1,4 +1,4 @@
-INCLUDEPATH += $$system(INCDIR)
+INCLUDEPATH += $$system(include_star_files)
 INCLUDEPATH +=  /opt/root/install/include
 
 HEADERS += \

@@ -37,9 +37,8 @@ bool kPeriod = false;
 // embedding, therefore useless.
 // turn on this option will add more background!
 
-double closestDistance(const StPhysicalHelixD& helix1,
-                       const StPhysicalHelixD& helix2, double magnet,
-                       const StThreeVectorF& pv, StThreeVectorF& xv0,
+double closestDistance(const StPhysicalHelixD& helix1, const StPhysicalHelixD& helix2,
+                       double magnet, const StThreeVectorF& pv, StThreeVectorF& xv0,
                        StThreeVectorF& op1, StThreeVectorF& op2) {
   // Hui LONG's function to calculate the Dca of two global tracks.
   // should use inner helix of tracks?
@@ -168,8 +167,7 @@ double closestDistance(const StPhysicalHelixD& helix1,
     // cout<<"two circles are crossing!"<<endl;
     alfa = acos((+r_pi * r_pi - d_p_pi * d_p_pi + r_p * r_p) / 2. / r_p / r_pi);
 
-    fi_root1_p =
-        acos((-r_pi * r_pi + d_p_pi * d_p_pi + r_p * r_p) / 2. / r_p / d_p_pi);
+    fi_root1_p = acos((-r_pi * r_pi + d_p_pi * d_p_pi + r_p * r_p) / 2. / r_p / d_p_pi);
     fi_root2_p = -fi_root1_p;
     fi_root1_pi = alfa + fi_root1_p;
     fi_root2_pi = -fi_root1_pi;
@@ -206,15 +204,14 @@ double closestDistance(const StPhysicalHelixD& helix1,
   fi_root2_p = (fi_root2_p - proton->theta) / proton->h;
   fi_root1_pi = (fi_root1_pi - pion->theta) / pion->h;
   fi_root2_pi = (fi_root2_pi - pion->theta) / pion->h;
-  fi_root1_p =
-      fi_root1_p -
-      floor(fi_root1_p / 2 / PI) * 2 *
-          PI;  // XZHU: try floor() here, instead of (int). since a wide range
-               // of period is tried below, the result should be the same. in
-               // fact, fi_root1_p should always be less than 0 (0,-2pi for 1
-               // period), since we are looking backward for the position where
-               // the helix originates. ADDED: it is not so simple. we should
-               // keep the code as it is.
+  fi_root1_p = fi_root1_p -
+               floor(fi_root1_p / 2 / PI) * 2 *
+                   PI;  // XZHU: try floor() here, instead of (int). since a wide range
+                        // of period is tried below, the result should be the same. in
+                        // fact, fi_root1_p should always be less than 0 (0,-2pi for 1
+  // period), since we are looking backward for the position where
+  // the helix originates. ADDED: it is not so simple. we should
+  // keep the code as it is.
   fi_root2_p = fi_root2_p - floor(fi_root2_p / 2 / PI) * 2 * PI;
   fi_root1_pi = fi_root1_pi - floor(fi_root1_pi / 2 / PI) * 2 * PI;
   fi_root2_pi = fi_root2_pi - floor(fi_root2_pi / 2 / PI) * 2 * PI;
@@ -231,8 +228,8 @@ double closestDistance(const StPhysicalHelixD& helix1,
                  // have multiple signals for a single lambda!!! hope this
                  // effect can be simulated in embedding analysis.
     rec_zij = 1000.;
-    n1 = -(static_cast<int>(fabs((proton->Zc - static_cast<double>(pv.z())) /
-                                 proton->Vz / 2. / PI)) +
+    n1 = -(static_cast<int>(
+               fabs((proton->Zc - static_cast<double>(pv.z())) / proton->Vz / 2. / PI)) +
            1);
     n2 = proton->Flag;  // XZHU: it is meanlingless to go forward in a helix to
                         // get the dca point where the particle (or helix)
@@ -240,8 +237,8 @@ double closestDistance(const StPhysicalHelixD& helix1,
                         // flag to 0, since fi_root1_pi is [-2pi,2pi]. ADDED: it
                         // is not so simple due to the TPC track momentum
                         // resolution. we should keep the code as it is.
-    m1 = -(static_cast<int>(fabs((pion->Zc - static_cast<double>(pv.z())) /
-                                 pion->Vz / 2. / PI)) +
+    m1 = -(static_cast<int>(
+               fabs((pion->Zc - static_cast<double>(pv.z())) / pion->Vz / 2. / PI)) +
            1);
     ;
     m2 = pion->Flag;
@@ -272,19 +269,17 @@ double closestDistance(const StPhysicalHelixD& helix1,
     fi_root1_pi = recj;
     d_root1 = rec_zij;
 
-    dcaPToPi(&fi_root1_p, &fi_root1_pi, proton, pion, &d_root1, &v0_root1[0],
-             alfa);
+    dcaPToPi(&fi_root1_p, &fi_root1_pi, proton, pion, &d_root1, &v0_root1[0], alfa);
   }
 
-  if (status == 2 &&
-      (v0_root2[0] * v0_root2[0] + v0_root2[1] * v0_root2[1]) < R2_TPC) {
+  if (status == 2 && (v0_root2[0] * v0_root2[0] + v0_root2[1] * v0_root2[1]) < R2_TPC) {
     rec_zij2 = 1000.;
-    n1 = -(static_cast<int>(fabs((proton->Zc - static_cast<double>(pv.z())) /
-                                 proton->Vz / 2. / PI)) +
+    n1 = -(static_cast<int>(
+               fabs((proton->Zc - static_cast<double>(pv.z())) / proton->Vz / 2. / PI)) +
            1);
     n2 = proton->Flag;
-    m1 = -(static_cast<int>(fabs((pion->Zc - static_cast<double>(pv.z())) /
-                                 pion->Vz / 2. / PI)) +
+    m1 = -(static_cast<int>(
+               fabs((pion->Zc - static_cast<double>(pv.z())) / pion->Vz / 2. / PI)) +
            1);
     m2 = pion->Flag;
     if (n1 < -10) n1 = -10;
@@ -313,8 +308,7 @@ double closestDistance(const StPhysicalHelixD& helix1,
     fi_root2_pi = recj2;
     d_root2 = rec_zij2;
 
-    dcaPToPi(&fi_root2_p, &fi_root2_pi, proton, pion, &d_root2, &v0_root2[0],
-             alfa);
+    dcaPToPi(&fi_root2_p, &fi_root2_pi, proton, pion, &d_root2, &v0_root2[0], alfa);
   }
 
   if (status == 0 || status == 1) {
@@ -366,8 +360,8 @@ double closestDistance(const StPhysicalHelixD& helix1,
   return d;
 }
 
-void dcaPToPi(double* fi_p, double* fi_pi, StTrackHelix* proton,
-              StTrackHelix* pion, double* d_root, double* v0, double alfa) {
+void dcaPToPi(double* fi_p, double* fi_pi, StTrackHelix* proton, StTrackHelix* pion,
+              double* d_root, double* v0, double alfa) {
   double R2_TPC = 30000.;  // hard-coded cuts
   double Z_TPC = 180.;
   double t1, t2;
@@ -466,8 +460,7 @@ void dcaPToPi(double* fi_p, double* fi_pi, StTrackHelix* proton,
           ddty2 = -pion->r * sinphi2;
           ddtz2 = 0;
 
-          double fn =
-              (tx1 - tx2) * dtx2 + (ty1 - ty2) * dty2 + (tz1 - tz2) * dtz2;
+          double fn = (tx1 - tx2) * dtx2 + (ty1 - ty2) * dty2 + (tz1 - tz2) * dtz2;
           double dfn = -dtx2 * dtx2 + (tx1 - tx2) * ddtx2 - dty2 * dty2 +
                        (ty1 - ty2) * ddty2 - dtz2 * dtz2 + (tz1 - tz2) * ddtz2;
           dfi2 = dfi2save - fn / dfn;
@@ -538,26 +531,21 @@ void dcaPToPi(double* fi_p, double* fi_pi, StTrackHelix* proton,
   x2 = pion->Xc + pion->r * cos(t2 * pion->h + pion->theta);
   y2 = pion->Yc + pion->r * sin(t2 * pion->h + pion->theta);
   z2 = pion->Zc + pion->Vz * t2;
-  new_d = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) +
-               (z1 - z2) * (z1 - z2));
+  new_d = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
 
   if (fabs(z1) > Z_TPC || fabs(z2) > Z_TPC) new_d = 500.;
-  if ((x1 * x1 + y1 * y1) > R2_TPC || (x2 * x2 + y2 * y2) > R2_TPC)
-    new_d = 500.;
+  if ((x1 * x1 + y1 * y1) > R2_TPC || (x2 * x2 + y2 * y2) > R2_TPC) new_d = 500.;
 
   // added by xianglei, for the case of one (or no) crossing point
-  oldx1 =
-      proton->Xc + proton->r * cos((t1 - dfi_p) * proton->h + proton->theta);
-  oldy1 =
-      proton->Yc + proton->r * sin((t1 - dfi_p) * proton->h + proton->theta);
+  oldx1 = proton->Xc + proton->r * cos((t1 - dfi_p) * proton->h + proton->theta);
+  oldy1 = proton->Yc + proton->r * sin((t1 - dfi_p) * proton->h + proton->theta);
   oldz1 = proton->Zc + proton->Vz * (t1 - dfi_p);
 
   oldx2 = pion->Xc + pion->r * cos((t2 - dfi_pi) * pion->h + pion->theta);
   oldy2 = pion->Yc + pion->r * sin((t2 - dfi_pi) * pion->h + pion->theta);
   oldz2 = pion->Zc + pion->Vz * (t2 - dfi_pi);
 
-  old_d = sqrt((oldx1 - oldx2) * (oldx1 - oldx2) +
-               (oldy1 - oldy2) * (oldy1 - oldy2) +
+  old_d = sqrt((oldx1 - oldx2) * (oldx1 - oldx2) + (oldy1 - oldy2) * (oldy1 - oldy2) +
                (oldz1 - oldz2) * (oldz1 - oldz2));
 
   if (new_d < old_d) {
@@ -683,8 +671,8 @@ double getDcaToPV(const StPhysicalHelixD& helix, const StThreeVectorF& pv) {
 }
 
 double closestDistance(const StThreeVectorF& xv0, const StThreeVectorF& pv0,
-                       const StPhysicalHelixD& helix, double magnet,
-                       StThreeVectorF& xxi, StThreeVectorF& op) {
+                       const StPhysicalHelixD& helix, double magnet, StThreeVectorF& xxi,
+                       StThreeVectorF& op) {
   double pxK, pyK, pzK, x, y, z, r, pL, pxL, pyL, pzL, pLK, pK, sign, xc, yc;
   // double P1=0, P2=0, P3=0;
   double a1, b1, c1;
@@ -728,43 +716,37 @@ double closestDistance(const StThreeVectorF& xv0, const StThreeVectorF& pv0,
   yc = (y - r * sign * pxK / static_cast<double>(pbach.perp()));
   pL = sqrt(pxL * pxL + pyL * pyL + pzL * pzL);
   pLK = pxL * pxK + pyL * pyK + pzL * pzK;
-  double xroot =
-      pyL * (pyL * (a1 - xc) - (b1 - yc) * pxL) / (pxL * pxL + pyL * pyL);
-  double yroot =
-      pxL * (pxL * (b1 - yc) - (a1 - xc) * pyL) / (pxL * pxL + pyL * pyL);
-  double dmax =
-      fabs(pxL * (b1 - yc) - (a1 - xc) * pyL) / sqrt(pxL * pxL + pyL * pyL);
+  double xroot = pyL * (pyL * (a1 - xc) - (b1 - yc) * pxL) / (pxL * pxL + pyL * pyL);
+  double yroot = pxL * (pxL * (b1 - yc) - (a1 - xc) * pyL) / (pxL * pxL + pyL * pyL);
+  double dmax = fabs(pxL * (b1 - yc) - (a1 - xc) * pyL) / sqrt(pxL * pxL + pyL * pyL);
   // xroot and yroot are the coordinates of the crossing points or the closest
   // point between the pion circle and lambda line ( in 2D ), it is still on the
   // lambda line dmax is the distance from the center of the pion circle to the
   // Lambda
   if (dmax >= (r + 0.5)) return 999.0;
   double newx, newy, newz, sign0 = -1, dsave = 999.0;
-  if (dmax >
-      r) {  // no 2d crossing points but not too far either, then the newx and
-            // newy are the coordinates of the 2D closest point to the Lambda
-            // line but still on the circle. //XZHU: should be rare, since it
-            // needs the momenta of lambda and K is in line with each other.
+  if (dmax > r) {  // no 2d crossing points but not too far either, then the newx and
+                   // newy are the coordinates of the 2D closest point to the Lambda
+                   // line but still on the circle. //XZHU: should be rare, since it
+                   // needs the momenta of lambda and K is in line with each other.
     newx = r / dmax * xroot + xc;
     newy = r / dmax * yroot + yc;
     if (((newx - x) * pxK + (newy - y) * pyK) > 0) sign0 = 1.0;
     newz =
         z + sign0 * r * 2 *
-                asin(sqrt((newx - x) * (newx - x) + (newy - y) * (newy - y)) /
-                     2.0 / r) *
+                asin(sqrt((newx - x) * (newx - x) + (newy - y) * (newy - y)) / 2.0 / r) *
                 pzK / sqrt(pxK * pxK + pyK * pyK);
     double newzL = pzL / pyL * (newy - b1) +
                    c1;  // from new x, new y , calculate the newz on the helix
     // dsave=sqrt((newzL-newz)*(newzL-newz)+dmax*dmax); //XZHU: BUG! change dmax
     // -> dmax-r
-    dsave = sqrt(
-        (newzL - newz) * (newzL - newz) +
-        (dmax - r) *
-            (dmax - r));  // XZHU: fixed! in this case, we can not use the
-                          // straight line approximation below. because these
-                          // two lines always cross each other at somewhere far
-                          // far away. therefore, you will have unphysical '0'
-                          // dca, some of them will add up to the background.
+    dsave =
+        sqrt((newzL - newz) * (newzL - newz) +
+             (dmax - r) * (dmax - r));  // XZHU: fixed! in this case, we can not use the
+    // straight line approximation below. because these
+    // two lines always cross each other at somewhere far
+    // far away. therefore, you will have unphysical '0'
+    // dca, some of them will add up to the background.
     // tanK=-1;
     tanK = 0;
     // cout<<"I'm here"<<" "<<sign0<<endl;
@@ -778,9 +760,8 @@ double closestDistance(const StThreeVectorF& xv0, const StThreeVectorF& pv0,
             //  same meaning in case 1
     double fa = 1 + pxL * pxL / pyL / pyL;
     double fb = 2 * pxL * ((a1 - xc) - (b1 - yc) * pxL / pyL) / pyL;
-    double fc = ((a1 - xc) - (b1 - yc) * pxL / pyL) *
-                    ((a1 - xc) - (b1 - yc) * pxL / pyL) -
-                r * r;
+    double fc =
+        ((a1 - xc) - (b1 - yc) * pxL / pyL) * ((a1 - xc) - (b1 - yc) * pxL / pyL) - r * r;
     double newy1 = (-fb - sqrt(fb * fb - 4 * fa * fc)) * 0.5 / fa;
     double newx1 = pxL * (newy1 - (b1 - yc)) / pyL + (a1 - xc) + xc;
     newy1 = newy1 + yc;
@@ -794,17 +775,16 @@ double closestDistance(const StThreeVectorF& xv0, const StThreeVectorF& pv0,
     if ((newx1 - x) * pxK + (newy1 - y) * pyK > 0) sign0 = 1.0;
     double newz1 =
         z + sign0 * 2.0 * r * asin(da1 / 2.0) * pzK /
-                sqrt(pxK * pxK +
-                     pyK * pyK);  // XZHU: only work in one period. for
-                                  // sign0=1, it is weird to check the
-                                  // orign point in the forward direction
+                sqrt(pxK * pxK + pyK * pyK);  // XZHU: only work in one period. for
+                                              // sign0=1, it is weird to check the
+                                              // orign point in the forward direction
     double newzL1 = pzL / pyL * (newy1 - b1) + c1;
     double ds2 = sqrt((newx2 - x) * (newx2 - x) + (newy2 - y) * (newy2 - y));
     double da2 = ds2 / r;
     sign0 = -1;
     if ((newx2 - x) * pxK + (newy2 - y) * pyK > 0) sign0 = 1.0;
-    double newz2 = z + sign0 * 2.0 * r * asin(da2 / 2.0) * pzK /
-                           sqrt(pxK * pxK + pyK * pyK);
+    double newz2 =
+        z + sign0 * 2.0 * r * asin(da2 / 2.0) * pzK / sqrt(pxK * pxK + pyK * pyK);
     double newzL2 = pzL / pyL * (newy2 - b1) + c1;
     if (fabs(newzL2 - newz2) > fabs(newzL1 - newz1)) {
       newx = newx1;
@@ -844,10 +824,9 @@ double closestDistance(const StThreeVectorF& xv0, const StThreeVectorF& pv0,
     double eF = cL * dsave;
     double t1 = (eC * eE - eF * eB) / (eA * eE - eB * eD);
     double t2 = (eA * eF - eC * eD) / (eA * eE - eB * eD);
-    double min_d =
-        sqrt((aK * t1 - aL * t2) * (aK * t1 - aL * t2) +
-             (bK * t1 - bL * t2) * (bK * t1 - bL * t2) +
-             (cK * t1 - cL * t2 - dsave) * (cK * t1 - cL * t2 - dsave));
+    double min_d = sqrt((aK * t1 - aL * t2) * (aK * t1 - aL * t2) +
+                        (bK * t1 - bL * t2) * (bK * t1 - bL * t2) +
+                        (cK * t1 - cL * t2 - dsave) * (cK * t1 - cL * t2 - dsave));
     // if(tanK==0)
     // cout<<min_d<<" "<<fabs(dsave)<<" "<<(cK*t1-cL*t2-dsave)<<"
     // "<<(bK*t1-bL*t2)<<" "<<(aK*t1-aL*t2)<<" "<<t1<<" "<<t2<<" "<<aK<<"
@@ -864,8 +843,7 @@ double closestDistance(const StThreeVectorF& xv0, const StThreeVectorF& pv0,
       // just for consistent check!
       double newkx = aK * t1 + newx;
       double newky = bK * t1 + newy;
-      double newr =
-          sqrt((newkx - xc) * (newkx - xc) + (newky - yc) * (newky - yc));
+      double newr = sqrt((newkx - xc) * (newkx - xc) + (newky - yc) * (newky - yc));
       double ptK = sqrt(pxK * pxK + pyK * pyK);
       pxK = -(yc - newky) / newr * sign * ptK;
       pyK = (xc - newkx) / newr * sign * ptK;

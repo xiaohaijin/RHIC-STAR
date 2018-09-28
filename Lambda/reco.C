@@ -65,8 +65,7 @@ void reco(TString InputFileList, Int_t nFiles, Int_t nEvents, TString OutputDir,
   ///                              const char *filter=".",
   ///                              int maxfiles=10,
   ///                              const char *name="MuDst")
-  StMuDstMaker* muDstMaker =
-      new StMuDstMaker(0, 0, "", InputFileList, "MuDst", nFiles);
+  StMuDstMaker* muDstMaker = new StMuDstMaker(0, 0, "", InputFileList, "MuDst", nFiles);
 
   /// Turn off everything but Primary tracks in order to speed up the analysis
   /// and eliminate IO
@@ -119,8 +118,7 @@ void reco(TString InputFileList, Int_t nFiles, Int_t nEvents, TString OutputDir,
   rawbg->SetDebug(0);
 
   ///  use Rotate method to get the anti-background information.
-  StV0Maker* rawantibg =
-      new StV0Maker(muDstMaker, "v0makerfirst_antibackground");
+  StV0Maker* rawantibg = new StV0Maker(muDstMaker, "v0makerfirst_antibackground");
   TString Name = JobIdName;
   Name.Append(".alabg.histo.root");
   rawantibg->setHistoFileName(OutputDir + JobIdName + ".alabg.histo.root");
