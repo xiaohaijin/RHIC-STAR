@@ -1,0 +1,17 @@
+MacroExample.C() Notes:
+
+Make sure to "cons" in this directory before you try to run
+the macro.  This is because it depends on software in the
+StRoot subdirectory.
+
+Execute the MacroExample.C() macro using root4star.  You 
+must also tell it how many files to read and the name of 
+the directory where the files live, or alternatively the 
+name of the file to read.  A sample *.MuDst.root file for
+tesing is located in /star/institutions/lbl/jhthomas/muDstTutorial/
+
+The output (histograms) will appear on the screen.
+
+For example:
+
+root4star [0] .x MacroExample.C(1,"filename.MuDst.root") 

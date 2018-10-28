@@ -1,0 +1,25 @@
+BiggerExample Notes: 
+
+Make sure to "cons" in this directory before you try to run
+the macro.  This is because it depends on software in the
+StRoot subdirectory.
+
+The "toURL" defines where you output will go.  It must be an
+absolute pathname.  It cannot be a wildcard or have a relative
+location.
+
+You must change the "toURL" in the .xml file so that it contains
+the absolute path to an existing directory where you have read/write 
+priveleges (e.g. the current directory will do for a small number 
+of *.root files).  So for example,
+toURL="file:/star/institutions/myInstitution/myName/myTestArea"
+
+Execute with: 
+   star-submit BiggerAnalysis.xml  
+
+Histogram output will go into files named (for example)
+"JobID.histograms.root"
+
+Browse with root4star 
+   root4star[0]  new TBrowser("JobID.histograms.root")
+   and then click on RootFiles and then each histogram

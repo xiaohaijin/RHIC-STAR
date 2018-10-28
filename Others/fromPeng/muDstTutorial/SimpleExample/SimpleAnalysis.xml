@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<job maxFilesPerProcess="10" fileListSyntax="xrootd" >
+
+<command> 
+        starpro
+        cons   
+        root4star -q -b SimpleAnalysis.C\(0,$INPUTFILECOUNT,\"$FILELIST\",\"$SCRATCH\",\"$JOBID\"\) 
+</command> 
+
+<SandBox installer="ZIP">
+        <Package>
+              	<File>file:./SimpleAnalysis.C</File>
+	 	<File>file:./StRoot</File>
+        </Package>
+</SandBox>
+
+<input
+
+	URL="catalog:star.bnl.gov?filetype=daq_reco_mudst,trgsetupname=productionCentral,sanity=1,storage=local" nFiles="2" />
+
+<stdout URL="file:./$JOBID.out"/>
+
+<stderr URL="file:./$JOBID.err"/>
+
+<output fromScratch="*.root" toURL="file:/star/u/pengliu/muDstTutorial/SimpleExample/" />
+
+</job>
+

@@ -1,0 +1,14 @@
+#!/bin/csh
+rm *.csh
+rm *.err
+rm *.list
+rm *.out
+rm *.dataset
+rm *.report
+rm *.session.xml
+#rm *.root
+rm *.condor
+rm *.condor.log
+rm *.eps
+rm -r *.package*
+echo "All done."
